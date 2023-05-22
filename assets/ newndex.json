@@ -1,0 +1,84 @@
+{
+   "type": "list",
+   "headline": "Template",
+   "pages": [
+      {
+         "items": [
+            {
+               "type": "button",
+               "layout": "0,0,3,3",
+               "icon": "web-asset",
+               "badge": "Crazy!",
+               "color": "msx-red",   
+               "alignment": "right|badge-right",
+               "label": "Crazy Sites",
+               "action": "panel:data",
+               "data":
+{
+   "type": "pages",
+   "headline": "Links",
+   "template": {
+      "tag": "Web",
+      "type": "separate",
+      "layout": "0,0,2,3",
+      "icon": "msx-white-soft:public",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+         "title": "Efukt",
+         "action": "link:http://www.efukt.com",
+         "image": "https://www.redbubble.com/i/sticker/The-Efukt-Guy-by-RedBoi/23510365.EJUG5"
+
+     },
+      {
+         "title": "Crazy Shit",
+         "action": "link:http://www.crazyshit.com"
+      },
+      {
+         "title": "Inhumanity",
+         "action": "link:http://www.inhumanity.com"
+      }
+   ]
+}
+             
+
+                       
+              },
+
+              {
+            
+               "type": "button",
+               "layout": "3,0,3,3",
+               "icon": "web-asset",
+               "badge": "Crazy!",
+               "color": "msx-orange",   
+               "alignment": "right|badge-right",
+               "label": "Playlist",
+               "action": "content:{asset:content:content.json}",
+               "data": {
+             
+                       }
+              },
+
+
+            {
+               "type": "button",
+               "layout": "0,3,3,3",
+               "icon": "web-asset",
+               "badge": "Tags!",
+               "color": "msx-white",     
+               "alignment": "right|badge-right",
+               "label": "Tags",
+               "action": "panel:data",
+               "data": {
+              
+                       }
+              }
+
+              
+
+         ]
+      }
+   ]
+}

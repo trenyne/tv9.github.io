@@ -1,0 +1,30 @@
+{
+   "type": "panel",
+   "headline": "Links",
+   "template": {
+      "badge": "RELOAD",
+      "type": "seperate",
+      "layout": "0,1,5,4",
+      "icon": "msx-red:warning",
+      "color": "msx-red"
+   },
+   "items": [
+
+      {   		
+
+         "important" : "true",
+         "type" : "button",
+         "title": "reload",
+            "enumerate": false,
+            "type": "button",
+            "offset": "0,0,0,-1",
+            "icon": "refresh",
+            "label": "Reload",
+            "action": "reload"
+
+      }
+
+
+   ]
+}
+      

@@ -1,0 +1,107 @@
+{
+    "type": "list",
+    "headline": "Tabs",
+    "preload": "next",
+    "flag": "tabs",
+    "header": {
+        "offset": "0,0,0,0.25",
+        "items": [{
+                "type": "space",
+                "layout": "0,0,12,3",
+                "offset": "-1.25,-1,2,1",
+                "color": "msx-glass",
+                "image": "image:{asset:image:homebr.png}",
+                "imageFiller": "fit",
+                "background":"https://trenyne.github.io/assets/web.png"
+                
+            }, {
+                "type": "space",
+                "layout": "0,1,12,1",
+                "offset": "-1.25,1,2,0",
+                "color": "msx-black-soft"
+            }, {
+                "type": "default",
+                "layout": "0,2,3,1",
+                "focus": true,
+                "color": "msx-white-soft",
+                "label": "{col:msx-black}Web Sites",
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://trenyne.github.io/msx/assets/first.json]"
+            }, {
+                "type": "default",
+                "layout": "3,2,3,1",
+                "color": "transparent",
+                "label": "videos",
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:contents:https://trenyne.github.io/msx/assets/content.json]"
+            },{
+                "type": "default",
+                "layout": "6,2,3,1",
+                "color": "transparent",
+                "label": "tags",
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:https://trenyne.github.io/msx/assets/tags.json]"
+            }, {
+                "type": "default",
+                "layout": "9,2,3,1",
+                "color": "transparent",
+                "label": "Shortcuts",
+                "action": "[ invalidate:content:flag:{tabs} | replace:content:tabs:content:https://trenyne.github.io/msx/assets/shortcuts.json]"
+            }]
+    },
+    "template": {
+        "type": "default",
+        "layout": "0,0,3,2",
+        "color": "msx-glass",
+        "imageFiller": "cover",
+       "flag":"mytab"
+    },
+     "items": [
+      {
+         "title": "efukt",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://efukt.com",
+		 "image": "https://i0.wp.com/whoreuro.com/wp-content/uploads/2023/03/efukt-fucked-up-porn-min.png?fit=1200%2C675&ssl=1",
+ "background": "https://i0.wp.com/whoreuro.com/wp-content/uploads/2023/03/efukt-fucked-up-porn-min.png?fit=1200%2C675&ssl=1",
+
+		 "imageFiller": "cover"
+     },
+   
+      {
+         "title": "Crazy Shit",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://www.crazyshit.com",
+		 "image": "https://thepornguy.b-cdn.net/wp-content/uploads/2019/10/crazyshit-1-1024x514.png.webp",
+		 "imageFiller": "cover"
+
+     },
+      {
+         "title": "Inhumanity",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://www.inhumanity.com",
+		 "image": "https://freestyler.ws/images/auto/styles_screenshot/5/292/146237/146237_addl_337480.png?u=1516609260",
+		 "imageFiller": "cover"
+
+     },
+      {
+         "title": "sickjunk",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://www.sickjunk.com",
+		 "image": "https://thepornguy.b-cdn.net/wp-content/uploads/2019/10/sick-junk-1024x517.png.webp",
+		 "imageFiller": "cover"
+
+     },
+
+{
+         "title": "Twisted Porn",
+         "action": "link:window:shortcuts://run-shortcut?name=Previewer&input=http://www.twistedporn.com",
+		 "image": "https://thepornguy.b-cdn.net/wp-content/uploads/2019/10/twistedporn-1024x517.png.webp",
+		 "imageFiller": "cover"
+
+     },
+
+
+
+
+ {
+         "title": "back",
+         "action": "back"
+      }
+
+ 
+
+]
+}

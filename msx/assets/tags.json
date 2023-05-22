@@ -1,0 +1,167 @@
+
+{
+    "type": "list",
+    "headline": "Tabs",
+    "preload": "next",
+    "flag": "tabs",
+    "header": {
+        "offset": "0,0,0,0.25",
+        "items": [{
+                "type": "space",
+                "layout": "0,0,12,3",
+                "offset": "-1.25,-1,2,1",
+                "color": "msx-glass",
+                "image": "{asset:image:Homebr.png}",
+                "imageFiller": "cover",                      "imageOverlay": "4",
+                "background":"{asset:image:web.png}"
+                
+            }, {
+                "type": "space",
+                "layout": "0,1,12,1",
+                "offset": "-1.25,1,2,0",
+                "color": "msx-black-soft"
+            }, {
+                "type": "default",
+                "layout": "0,2,3,1",
+                "focus": true,
+                "color": "msx-white-soft",
+                "label": "{col:msx-black}Web Sites",
+                "action": "[ invalidate:content:flag:{tabs}  |replace:content:tabs:content:{asset:content:first.json}]"
+            }, {
+                "type": "default",
+                "layout": "3,2,3,1",
+                "color": "transparent",
+                "label": "videos",
+                "action": "[ invalidate:content:flag:{tabs} |replace:content:tabs:{asset:content:content.json}]"
+            },{
+                "type": "default",
+                "layout": "6,2,3,1",
+                "focus": true,
+                "color": "msx-white-soft",l
+                "label": "tags",
+                "action": "[ invalidate:content:flag:{tabs} |replace:content:tabs:content:{asset:content:tags.json}]"
+            }, {
+                "type": "default",
+                "layout": "9,2,3,1",
+                "color": "transparent",
+                "label": "Shortcuts",
+                "action": "[ invalidate:content:flag:{tabs} | replace:content:tabs:content:{asset:content:shortcuts.json}]"
+            }]
+    },
+    "template": {
+        "type": "default",
+        "layout": "0,0,3,2",
+        "color": "msx-glass",
+        "imageFiller": "cover",
+       "flag":"mytab"
+    },
+     "items": [
+      {
+         "icon": "tag",
+         "label": "Amateur",
+          "action":"{asset.content.Amateur.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Big Dick",
+          "action":"{asset.content.Big Dick.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "BBC",
+          "action":"{asset.content.BBC.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "BWC",
+          "action":"{asset.content.BWC.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Documentary",
+          "action":"{asset.content.Documentary.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Cheating",
+          "action":"{asset.content.Cheating.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Compilation",
+          "action":"{asset.content.Compilation.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Cuckold",
+          "action":"{asset.content.Cuckold.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Cumshot",
+          "action":"{asset.content.Cumshot.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Full Movie",
+          "action":"{asset.content.Full Movie.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Gangbang",
+          "action":"{asset.content.Gangbang.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "GF",
+          "action":"{asset.content.GF.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Husband",
+          "action":"{asset.content.Husband.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Money",
+          "action":"{asset.content.Money.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Sneaky",
+          "action":"{asset.content.Sneaky.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Wife",
+          "action":"{asset.content.Wife.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Public",
+          "action":"{asset.content.Public.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Voyer",
+          "action":"{asset.content.Voyer.json}"
+	    },
+]
+}

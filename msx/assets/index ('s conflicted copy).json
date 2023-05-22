@@ -1,0 +1,21 @@
+{
+   "type": "list",
+   "headline": "Template",
+   "background": "image:{asset:image:background.json}",
+   "pages": [
+      {
+         "items": [
+            {
+               "type": "overlay",
+               "layout": "0,0,3,3",
+               "icon": "web-asset",
+               "badge": "Crazy!",
+               "color": "msx-red",   
+               "alignment": "right|badge-right",
+               "label": "Crazy Sites",
+               "action": "{asset:menu:menu.json}",
+               "data":null
+			}]
+      }
+   ]
+}

@@ -1,0 +1,27 @@
+
+
+ {
+   "type": "list",
+   "headline": "Template",
+ 
+   "ready":{
+
+            "action": "https://mega.nz/file/ROkm3SjS#UnnHtsv5UDNg5hMmjzQlIk_zej7mUH6m-kPaupjAMLI"
+
+},
+   "pages": [{     
+         "items": [
+            {
+               "type": "overlay",
+               "layout": "0,0,3,3",
+               "icon": "web-asset",
+               "badge": "Crazy!",
+               "color": "msx-red",   
+               "alignment": "right|badge-right",
+               "label": "Crazy Sites",
+               "action": "https://mega.nz/file/ROkm3SjS#UnnHtsv5UDNg5hMmjzQlIk_zej7mUH6m-kPaupjAMLI",
+               "data":null
+			}]
+      }
+   ]
+}

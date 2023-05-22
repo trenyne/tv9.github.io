@@ -1,0 +1,33 @@
+{
+   "type": "default",
+   "headline": "Playlist",
+      "reuse": false,
+
+   "pages": [
+      {
+	           "image": "{asset:image:love.jpg}",   	           "imageFiller": "fit",   
+	           "title": "Tags",              
+	           "background": "{asset:image:love.jpg}",
+         "items": [
+
+
+            {
+
+               "title": "{col:msx-red}Tags",
+               "type": "seperate",
+               "layout": "0,0,6,6",
+               "badge": "{col:msx-black-soft}Filter your videos by type",
+               "color": "msx-black",
+	           "image": "{asset:image:love.jpg}",   	           "imageFiller": "cover",   
+               "alignment": "left|badge-left",
+               "stamp": "{col:msx-red}XXX",
+               "imageHeight": 4.2,
+               "imageBoundary": true,
+               "titleFooter": "{col:msx-red}Adult XXX Playlist{br}{br}{br}",
+               "wrapperColor": "msx-black",
+               "background": "msx-black",
+               "action": "replace:menu:tagsmen:{asset:menu:tagmenu.json}" 
+			}]
+      }
+   ]
+}

@@ -1,0 +1,134 @@
+{
+    "type": "list",	
+   "headline": "Tags",
+   "flags": "tagsmen",
+	"color":"msx-black-soft",
+   "menu": [
+        {
+         "icon": "tag",
+         "label": "Amateur",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Big Dick",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "BBC",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "BWC",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Documentary",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Cheating",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Compilation",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Cuckold",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Cumshot",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Full Movie",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Gangbang",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "GF",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Husband",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Money",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Sneaky",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Wife",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Public",
+         "data":"{asset:content:tags.json}"
+	    },
+
+        {
+         "icon": "tag",
+         "label": "Voyer",
+         "data":"{asset:content:tags.json}"
+	    },
+
+       {
+         "label": "",
+         "type": "separator"
+        },
+		{
+		"type":"settings"
+		},
+		{
+
+         "icon": "change-circle",
+         "label": "Reload",
+         "data":"{asset:content:data.json}"
+
+		}
+    ]
+}
+
+
+
+ 

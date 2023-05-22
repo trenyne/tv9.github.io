@@ -1,0 +1,48 @@
+{
+   "type": "panel",
+   "headline": "Shortcuts",
+   "ready": {
+      "action": "execute:service:video:data:http://msx.benzac.de/services/background.php",
+      "data": {
+         "url": "http://msx.benzac.de/media/atmos2.mp4",
+         "label": "Web Links",
+         "transparent": true
+      }
+},
+
+   "template": {
+      "tag": "Web",
+      "type": "seperate",
+      "layout": "0,0,2,3",
+      "icon": "msx-white-soft:public",
+      "color": "msx-glass"
+},
+
+   "items": [
+      {
+         "title": "Refresh Content",
+         "action": "link:window:shortcuts://run-shortcut?name=refresh%20playlist&input=Media%20Station%20X"
+     },
+      {
+         "title": "New Web Site",
+         "action": "link:window:shortcuts://run-shortcut?name=MsX:New%20Site&input=Media%20Station%20X"
+     },
+      {
+         "title": "Web View",
+         "action": "link:window:shortcuts://run-shortcut?name=Video:Web%20View&input=Media%20Station%20X"
+     },
+      {
+         "title": "New Playlist",
+         "action": "link:window:shortcuts://run-shortcut?name=New%20Playlist&input=Media%20Station%20X"
+     },
+      {
+         "title": "Playlist history",
+         "action": "link:window:shortcuts://run-shortcut?name=%20playlist"
+     },
+ {
+         "title": "Exit",
+         "action": "back"
+      }
+
+   ]
+}

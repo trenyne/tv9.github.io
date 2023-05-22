@@ -1,0 +1,6 @@
+{
+     "name": "Shhhh",
+    "version": "1.0.0",
+    "parameter": "menu:https://mega.nz/file/sHNWFBSY#QUX_QJiKMiSjbGMVeUhcht7WlDgHFq8oJs8zk61DrS8",
+    "welcome": "none"
+}

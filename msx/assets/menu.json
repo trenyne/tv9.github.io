@@ -1,0 +1,52 @@
+{
+    
+    "id": "menu_id",
+    "type": "menu",
+    "display": true,
+    "enable": false,
+    "focus": false,
+    "reuse": true,
+    "style": "overlay",
+    "execute": false,
+    "important": true,
+    "transparent": 2,
+    "icon": "blank",
+    
+    "label": "Item Label",
+    "extensionIcon": "blank",
+    "lineColor": "msx-white",
+    "data": null,
+   "headline": "Shhh Playlist",
+	"color":"msx-black-soft",
+   "background":"msx-red",
+   "ready": {
+      "action":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json"
+      },
+   "menu": [
+        {
+         "label": "Shhh Playlist",
+         "type": "separator"
+        },
+
+        {
+         "icon": "home",
+         "label": "Home",
+         "extensionLabel": "home page",
+         "data":"https://dl.dropboxusercontent.com/s/qswgxvotoaemzsj/homepage.json"
+	    },
+
+        
+		{
+		"type":"settings"
+		},
+		{
+         "icon": "change-circle",
+         "label": "Reload",
+         "data":"https://trenyne.github.io/assets/data.json"
+		}
+    ]
+}
+
+
+
+ 
